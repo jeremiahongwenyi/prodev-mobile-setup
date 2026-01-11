@@ -17,6 +17,7 @@ export default function Index() {
       >
         <ImageBackground
           source={require("../assets/images/background-image.png")}
+          // source={require("@/assets/images/background-image.png")}
           style={styles.background}
           resizeMode="cover"
         >
