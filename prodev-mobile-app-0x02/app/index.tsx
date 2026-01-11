@@ -7,7 +7,7 @@ import {
   Text,
   TouchableOpacity,
 } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import {SafeAreaView , SafeAreaProvider} from "react-native-safe-area-context";
 
 export default function Index() {
   return (
@@ -16,12 +16,12 @@ export default function Index() {
         style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
       >
         <ImageBackground
-          source={require("../assets/background-image.png")}
+          source={require("../assets/images/background-image.png")}
           style={styles.background}
           resizeMode="cover"
         >
           <View style={styles.companyLogo}>
-            <Image source={require("../assets/Logo.png")} />
+            <Image source={require("../assets/images/Logo.png")} />
           </View>
 
           <View style={styles.textGroup}>
